@@ -33,7 +33,7 @@ function ProductSection() {
     ];
 
     return (
-        <div className="w-screen min-h-screen bg-zinc-200 grid grid-cols-1 sm:grid-cols-3 gap-4 p-4 overflow-hidden">
+        <div className="w-screen min-h-screen bg-zinc-300 grid grid-cols-1 sm:grid-cols-3 gap-4 p-4 overflow-hidden">
             {products.map((product, index) => (
                 <motion.div
                     key={index}

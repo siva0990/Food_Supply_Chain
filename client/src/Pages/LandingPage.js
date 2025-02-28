@@ -3,10 +3,12 @@ import AboutSection from "../Components/LandingPage/AboutSection";
 import ProductSection from "../Components/LandingPage/ProductSection";
 import ContactUsSection from "../Components/LandingPage/ContactUsSection";
 import FooterSection from "../Components/LandingPage/FooterSection";
+import NavBar from "../Components/NavBar/NavBar";
 
 function LandingPage(){
     return (
         <div className="overflow-x-hidden">
+            <NavBar />
             <section id="home">
                 <HeroSection />
             </section>

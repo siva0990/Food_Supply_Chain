@@ -4,7 +4,7 @@ function NavItems() {
     return (
         <>
             <Link
-                className="hover:tracking-widest hover:scale-[1.1] transition-all duration-300 cursor-pointer text-[1.2rem] font-[550]"
+                className="hover:tracking-widest hover:scale-[1.1] transition-all duration-300 cursor-pointer text-[1.2rem] font-[550] hover:text-secondary"
                 to="About"
                 spy={true}
                 smooth={true}
@@ -13,7 +13,7 @@ function NavItems() {
                 activeClass="active"
             >About</Link>
             <Link
-                className="hover:tracking-widest hover:scale-[1.1] transition-all duration-300 cursor-pointer text-[1.2rem] font-[550]"
+                className="hover:tracking-widest hover:scale-[1.1] transition-all duration-300 cursor-pointer text-[1.2rem] font-[550] hover:text-secondary"
                 to="Products"
                 spy={true}
                 smooth={true}
@@ -22,7 +22,7 @@ function NavItems() {
                 activeClass="active"
             >Products</Link>
             <Link
-                className="hover:tracking-widest hover:scale-[1.1] transition-all duration-300 cursor-pointer text-[1.2rem] font-[550]"
+                className="hover:tracking-widest hover:scale-[1.1] transition-all duration-300 cursor-pointer text-[1.2rem] font-[550] hover:text-secondary"
                 to="Contact"
                 spy={true}
                 smooth={true}

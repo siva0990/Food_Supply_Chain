@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import LoginPage from './Pages/LoginPage';
 import SignUpPage from './Pages/SignUpPage';
 import LandingPage from "./Pages/LandingPage";
@@ -7,8 +7,9 @@ import NavBar from "./Components/NavBar/NavBar";
 function App() {
   return (
     <div>
-        <NavBar />
+
       <BrowserRouter>
+
           <Routes>
             <Route path="/" element={<LandingPage />}></Route>
             <Route path="/login" element={<LoginPage />}></Route>
